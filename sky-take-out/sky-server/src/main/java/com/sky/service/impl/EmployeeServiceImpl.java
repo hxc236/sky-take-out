@@ -30,8 +30,6 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Autowired
     private EmployeeMapper employeeMapper;
-    @Autowired
-    private JwtProperties jwtProperties;
 
     /**
      * 员工登录
